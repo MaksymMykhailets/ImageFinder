@@ -1,0 +1,15 @@
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  list-style: none;
+  gap: 10px;
+}
+
+.imageGalleryItem {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

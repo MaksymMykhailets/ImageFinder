@@ -23,3 +23,8 @@ export interface ImageGalleryProps {
   images: Photo[];
   onImageClick: (image: Photo) => void;
 }
+
+export interface ImageModalProps {
+  image: Photo | null;
+  onClose: () => void;
+}

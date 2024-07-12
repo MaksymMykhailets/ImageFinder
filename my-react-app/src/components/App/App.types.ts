@@ -28,3 +28,11 @@ export interface ImageModalProps {
   image: Photo | null;
   onClose: () => void;
 }
+
+export interface LoadMoreBtnProps {
+  onClick: () => void;
+}
+
+export interface SearchBarProps {
+  onSearch: (searchQuery: string) => void;
+}
